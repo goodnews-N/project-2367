@@ -1,0 +1,136 @@
+body {
+    background-color: lavender;
+}
+header {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-style: italic;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+}
+.navbar li {
+    margin: 10px;
+}
+.navbar a{
+    color: white;
+    font-weight: bold;
+}
+h2 {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.about {
+    background-image: url(logo.png);
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+    border-color: blue;
+}
+
+.about p {
+    font-size: larger;
+    font-style: italic;
+    background-color: lavender;
+    padding: 10px;
+}
+
+.menu {
+    background-color:lightblue;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.menu h2 {
+    color: black;
+    text-align: justify;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+li {
+    color: orange;
+    margin-bottom: 10px;
+}
+a {
+    color: brown;
+    font-size: 20px;
+    font-weight: bold; 
+}
+a:hover {
+    color: grey;
+}
+
+.reservation {
+    background-image: url(school\ jpg.jpg);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.reservation label {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+.reservation input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+button {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+}
+button:hover {
+    background-color: pink;
+}
+
+.how-know {
+    background-color: bisque;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.how-know h2 {
+    color: purple;
+}
+.how-know label {
+    font-weight: bold;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.how-know select {
+    width: 100%;
+}
+.how-know textarea {
+    width: 100%;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding: 10px;
+}
